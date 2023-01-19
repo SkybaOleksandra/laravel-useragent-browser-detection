@@ -3,6 +3,7 @@
 namespace Laravel\UseragentBrowserDetection;
 
 use hisorange\BrowserDetect\Parser;
+use Laravel\InterfaceUseragent\UserAgentServiceInterface;
 
 class BrowserDetectionService implements UserAgentServiceInterface {
 
