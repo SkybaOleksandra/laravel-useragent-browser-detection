@@ -1,0 +1,19 @@
+{
+    "name": "oleksandra/laravel-useragent-browser-detection",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Laravel\\UseragentBrowserDetection\\": "./src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oleksandra"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "hisorange/browser-detect": "^4.5"
+    }
+}
